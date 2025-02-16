@@ -152,26 +152,20 @@ public class QuizActivity extends AppCompatActivity {
         int incorrectColor = Color.parseColor("#FF6B6B"); // Soft red for incorrect answers
 
         boolean isCorrect = (optionIndex == correctAnswers[currentQuestionIndex]);
-        int backgroundColor = isCorrect ? correctColor : incorrectColor;
+        int textColor = isCorrect ? correctColor : incorrectColor;
         String tick = isCorrect ? "✔" : "❌";
-
-        setButtonStyle(selectedButton, backgroundColor, Color.WHITE, tick);
+        setButtonStyle(selectedButton, textColor , tick );
     }
 
     private void resetOptionStyles() {
         for (Button button : optionButtons) {
-            setButtonStyle(button, Color.LTGRAY, Color.BLACK, "");
+            setButtonStyle(button,  Color.BLACK, "");
         }
     }
 
-    private void setButtonStyle(Button button, int backgroundColor, int textColor, String tick) {
-        button.setBackgroundColor(backgroundColor);
+    private void setButtonStyle(Button button,  int textColor, String tick) {
         button.setTextColor(textColor);
         button.setText(button.getText().toString() + " " + tick);
-
-        GradientDrawable drawable = new GradientDrawable();
-        drawable.setColor(backgroundColor);
-        drawable.setCornerRadius(20);
-        button.setBackground(drawable);
     }
 }
+

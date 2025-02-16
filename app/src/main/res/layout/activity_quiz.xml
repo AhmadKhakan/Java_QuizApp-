@@ -79,16 +79,10 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="10dp"
-        android:layout_margin="20dp">
+        android:layout_margin="20dp"
+        >
 
-        <LinearLayout
-            android:id="@+id/Loption_1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:layout_margin="10dp"
-            android:background="@drawable/rounded_shadow"
-            android:elevation="8dp">
+
 
             <RadioButton
                 android:id="@+id/option_1"
@@ -99,17 +93,11 @@
                 android:textSize="16sp"
                 android:gravity="center_vertical"
                 android:padding="16dp"
-                android:backgroundTint="@android:color/transparent"
+                android:layout_margin="20dp"
+                android:elevation="12dp"
+                android:backgroundTint="@android:color/white"
+                android:background="@drawable/rounded_shadow"
                 />
-        </LinearLayout>
-        <LinearLayout
-            android:id="@+id/Loption_2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:layout_margin="10dp"
-            android:background="@drawable/rounded_shadow"
-            android:elevation="8dp">
 
             <RadioButton
                 android:id="@+id/option_2"
@@ -119,18 +107,12 @@
                 android:button="@null"
                 android:textSize="16sp"
                 android:padding="16dp"
+                android:layout_margin="20dp"
+                android:elevation="12dp"
                 android:gravity="center_vertical"
-                android:backgroundTint="@android:color/transparent"
+                android:backgroundTint="@android:color/white"
+                android:background="@drawable/rounded_shadow"
                 />
-        </LinearLayout>
-        <LinearLayout
-            android:id="@+id/Loption_3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:layout_margin="10dp"
-            android:background="@drawable/rounded_shadow"
-            android:elevation="8dp">
 
             <RadioButton
                 android:id="@+id/option_3"
@@ -138,21 +120,14 @@
                 android:layout_height="wrap_content"
                 android:text="@string/option_3"
                 android:padding="16dp"
+                android:layout_margin="20dp"
+                android:elevation="12dp"
                 android:button="@null"
                 android:textSize="16sp"
                 android:gravity="center_vertical"
-                android:backgroundTint="@android:color/transparent"
+                android:backgroundTint="@android:color/white"
+                android:background="@drawable/rounded_shadow"
                 />
-        </LinearLayout>
-        <LinearLayout
-            android:id="@+id/Loption_4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:layout_margin="10dp"
-            android:layout_marginBottom="20dp"
-            android:background="@drawable/rounded_shadow"
-            android:elevation="8dp">
 
             <RadioButton
                 android:id="@+id/option_4"
@@ -160,13 +135,16 @@
                 android:layout_height="wrap_content"
                 android:text="@string/option_4"
                 android:padding="16dp"
+                android:layout_margin="20dp"
+                android:elevation="12dp"
                 android:button="@null"
                 android:textSize="16sp"
                 android:gravity="center_vertical"
-                android:backgroundTint="@android:color/transparent"
+                android:backgroundTint="@android:color/white"
+                android:background="@drawable/rounded_shadow"
                 />
-        </LinearLayout>
     </RadioGroup>
+
 
     <!-- Navigation Button -->
     <Button
@@ -182,3 +160,5 @@
         />
 
 </LinearLayout>
+
+
