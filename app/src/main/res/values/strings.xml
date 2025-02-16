@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="your_name">Your Name</string>
+    <string name="start">Start</string>
+    <string name="question">Question</string>
+    <string name="option_1">Option 1</string>
+    <string name="option_2">Option 2</string>
+    <string name="option_3">Option 3</string>
+    <string name="option_4">Option 4</string>
+    <string name="previous">Previous </string>
+
+
+    <string name="next">Next</string>
+    <string name="your_score_0">Your Score: 0</string>
+    <string name="share_score">Share Score</string>
+    <string name="logo">Logo</string>
+</resources>
